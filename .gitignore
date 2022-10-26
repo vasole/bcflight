@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*~
+
+# C extensions
+*.so
+
+# MacOS
+*.DS_Store
+
+# Distribution / packaging
+#bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+MANIFEST
+
+
+#parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# IPython stuff
+.ipython
+
+# Sphinx documentation
+docs/_build/
+
+# cython generated files
+PyMca5/PyMcaGraph/ctools/_ctools/cython/*.c
+PyMca5/PyMcaPhysics/xas/_xas/cython/*.c
+
+# PyCharm meta data
+.idea/
+
+# Vim
+*.swp
